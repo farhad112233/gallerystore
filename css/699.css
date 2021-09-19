@@ -1,0 +1,218 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.input{
+    border: 2px solid rgb(243, 223, 223);
+    padding: 3px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.input:focus{
+    border: 2px solid rgb(8, 8, 8);
+}
+.input:hover{
+    border: 2px solid rgb(34, 218, 18);
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+body{
+    border-radius: 5px;
+    margin: 5px;    
+    width: 100%;
+}
+.body{		
+    background: url("../icon/22.jpg") no-repeat ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.right img{
+height: 200px;
+width:200px;
+margin: 15px;
+}
+.right .a{
+    display: inline-block;
+    border: 2px solid transparent;
+}
+.right .a:hover{       
+    opacity: .7;    
+}
+.right{    
+    text-align: justify;
+    padding: 10px;
+}
+.left{    
+    padding: 10px;
+}
+ .left *{    
+     font-size: 20px;
+    text-decoration: none;
+    color: rgb(70, 66, 66);    
+} 
+.lefta{
+    text-decoration: none;    
+    color: rgb(70, 66, 66); 
+    padding: 3px; 
+    border: 2px solid transparent;
+}
+.lefta:hover{
+    color: rgb(172, 46, 172);
+    background: white;
+}
+.leftaa{
+    text-decoration: none;    
+    color: rgb(70, 66, 66); 
+    padding: 3px; 
+    border: 2px solid transparent;
+    background:rgb(70, 66, 66) ;
+    color: white ;
+    border-radius: 5px;
+}
+.cat,.left{
+    display: flex;
+    flex-direction: column;         
+}
+.join{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.left>div{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;    
+    overflow: auto;
+    max-width: 300px;    
+}
+.table{ border-collapse: collapse;
+    width: 100%;
+    background: rgb(246, 241, 241);    
+}
+.table *{
+    text-align: center;          
+}
+.tr:hover{
+    background: rgb(255, 255, 192);
+}
+.note{
+    padding: 10px;
+    margin: 10px;
+    color: chartreuse;
+}
+.error{
+    color: red;
+}
+.table img{
+    text-align: center;  
+    width: 40px;     
+    height: 40px;    
+}
+#user td{
+    font-size: 12px;
+}
+.a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(70, 66, 66); 
+    padding: 3px; 
+    border: 2px solid transparent;
+}
+.a:hover{
+    color: rgb(25, 9, 245);
+}   
+.sabad{
+    background: rgb(151, 206, 68);
+    border-radius: 30px;
+    text-align: center;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.cont{
+    background: rgb(233, 230, 230);
+    padding: 10px;
+    max-width: 450px;
+    margin:10px auto;
+    border: 2px solid #f1f1f1;  
+}
+.cont a{
+    display: block;
+    text-align: center;    
+    color: blue;
+}
+.full{
+    width: 90%;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+}
+.br{
+    border-bottom: 1px solid black;    
+}
+.br *{
+    padding: 3px;
+    margin: 3px;
+}
+#ac{
+    padding-left: 50px;
+}
+#ac span{
+    background: rgb(8, 119, 8);
+    color: white;
+    border-radius: 50%;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+#w{
+    color: white;
+}
+.inp{
+    border: 2px solid blue;
+    background: greenyellow;
+    border-radius: 5px;    
+}
+.home{
+    background: rgb(151, 206, 68);
+    width: 95%;          
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+}
+.home *{
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    color: blue;
+}
+.font{
+    font-size: 30px;
+}
+.aa:hover{
+    background: rgb(232, 240, 241);
+    color: black;
+}
+.center{
+    text-align: center;
+}
+.alert{
+    color: red;
+}
+.left{
+    position: relative;
+}
+.hide{
+    display: none;
+    position: absolute;
+    top:40px;
+}
+#b{
+    width: 70px;
+    padding: 5px;
+}
+.dropbtn{
+    background: rgb(224, 224, 224);
+}
